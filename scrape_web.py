@@ -15,7 +15,7 @@ url = "https://raie.tallinn.ee/open_raie.php"
 
 # download options - allows selenium chrome to download files immediately on click
 
-download_dir = "C:\\Users\\Rainer\\Google Drive\\DATA\\Trees\\pdf"
+download_dir = ""
 options = webdriver.ChromeOptions()
 
 profile = {"plugins.plugins_list": [{"enabled": False, "name": "Chrome PDF Viewer"}], # Disable Chrome's PDF Viewer
